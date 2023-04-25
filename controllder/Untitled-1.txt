@@ -1,0 +1,21 @@
+
+
+
+First 
+
+    github
+    yarn
+    package.json
+    linting
+    logging winston
+    nest js backend framework
+    socket io --- http short long polling
+    https
+    http
+    localhost
+    typescript
+
+    two repositories
+        main ---singleton
+        buyer-request -----nx monrepos
+
