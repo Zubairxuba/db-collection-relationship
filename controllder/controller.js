@@ -91,8 +91,13 @@ const UploadFile = async (req, res) => {
   res.send("upload files");
 };
 
-const GetAllStudents = (req, res) => {
-  res.send("Get All Students");
+const GetAllStudents = async (req, res) => {
+  const students = await StudentModel.find().populate("books");
+
+  return res.status(200).json({
+    message: "All Students",
+    result: students,
+  });
 };
 
 module.exports = {
