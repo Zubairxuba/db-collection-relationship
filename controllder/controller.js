@@ -90,6 +90,11 @@ const Pagination = async (req, res) => {
 const UploadFile = async (req, res) => {
   res.send("upload files");
 };
+
+const GetAllStudents = (req, res) => {
+  res.send("Get All Students");
+};
+
 module.exports = {
   CreateBook,
   CreateStudent,
@@ -97,4 +102,5 @@ module.exports = {
   Relation,
   Pagination,
   UploadFile,
+  GetAllStudents,
 };
